@@ -1,0 +1,122 @@
+{
+"coin": {
+    "invtype": [
+      {
+        "id": 1000000,
+        "name": "NPS",
+        "nameid": "INV00NPS",
+        "displayname": "National Pension System"
+      },
+      {
+        "id": 1000001,
+        "name": "EPF",
+        "nameid": "INV00EPF",
+        "displayname": "Employee Provident Fund"
+      },
+      {
+        "id": 1000002,
+        "name": "PPF",
+        "nameid": "INV00PPF",
+        "displayname": "Public Provident Fund"
+      },
+      {
+        "id": 1000003,
+        "name": "FIXED",
+        "nameid": "INV00FXD",
+        "displayname": "Fixed Deposit"
+      },
+      {
+        "id": 1000004,
+        "name": "BANK",
+        "nameid": "INV00BNK",
+        "displayname": "Bank Account Details"
+      },
+      {
+        "id": 1000005,
+        "name": "STOCK",
+        "nameid": "INV00STK",
+        "displayname": "Security Market"
+      },
+      {
+        "id": 1000006,
+        "name": "MF",
+        "nameid": "INV000MF",
+        "displayname": "Mutual Fund"
+      },
+      {
+        "id": 1000007,
+        "name": "TERMPLAN",
+        "nameid": "INV000TRM",
+        "displayname": "Term Plan"
+      }
+    ],
+    "fieldconfig": {
+      "INV000TRM": [
+        {
+          "type": "hidden",
+          "name": "id",
+          "label": "Id",
+          "placeholder": "Id",
+          "comment": "value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
+          "type": "date",
+          "name": "processDate",
+          "label": "Process Date",
+          "placeholder": "Process Date",
+          "comment": "value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
+          "type": "text",
+          "name": "planId",
+          "label": "Plan Id",
+          "placeholder": "Plan Id",
+          "comment": "value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
+          "type": "text",
+          "name": "planName",
+          "label": "Plan Name",
+          "placeholder": "Plan Name",
+          "comment": "value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
+          "type": "text",
+          "name": "planNumber",
+          "label": "Plan Number",
+          "placeholder": "Plan Number",
+          "comment": "value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
+          "type": "text",
+          "name": "linkedBankName",
+          "label": "Linked Bank Name",
+          "placeholder": "Linked Bank Name",
+          "comment": "value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
+          "type": "text",
+          "name": "linkedBankAccount",
+          "label": "Linked Bank Account",
+          "placeholder": "Linked Bank Account",
+          "comment": "value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
+          "type": "text",
+          "name": "linkedMobileNumber",
+          "label": "Linked Mobile Number",
+          "placeholder": "Linked Mobile Number",
+          "comment": "value and id should come while loading data,make name unique while loading data in loop"
+        },
+        {
+          "type": "text",
+          "name": "linkedEmail",
+          "label": "Linked Email",
+          "placeholder": "Linked Email",
+          "comment": "value and id should come while loading data,make name unique while loading data in loop"
+        }
+      ]
+    },
+    "appsetting": {}
+  }
+ }
